@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #f093fb, #f5576c, #5ec7ff);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #imageUpload {
+    display: none;
+    margin-right: 20px;
+  }
+  
+  label {
+    padding: 10px;
+    background-color: #ff7f50;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+  label:hover {
+    background-color: #ffa07a;
+  }
+  
+  #canvasContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #canvas1 {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: white;
+  }

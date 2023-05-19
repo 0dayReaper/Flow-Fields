@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flow Field Animation</title>
+    <link rel="stylesheet" type="text/css" href="flowFields.css">
 </head>
 <body>
-    <input type="file" id="imageUpload" accept="image/*">
-    <canvas id="canvas1" width="700" height="700"></canvas>
+    <div id="container">
+        <label for="imageUpload">Upload an image</label>
+        <input type="file" id="imageUpload" accept="image/*">
+        <div id="canvasContainer">
+            <canvas id="canvas1" width="700" height="700"></canvas>
+        </div>
+    </div>
     <script src="flowFields.js"></script>
 </body>
 </html>

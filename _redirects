@@ -1,4 +1,5 @@
 # Redirects for static files
+/flowFields.css       /src/flowFields.css       200
 /flowFields.js       /src/flowFields.js       200
 
 # Redirects for routes
