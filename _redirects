@@ -1,2 +1,5 @@
+# Redirects for static files
+/flowFields.js       /src/flowFields.js       200
+
 # Redirects for routes
 /*    /src/flowFields.html    200
